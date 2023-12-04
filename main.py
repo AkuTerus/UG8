@@ -60,3 +60,32 @@ if __name__ == '__main__':
     print()
     print(binaryT.hasilGanjil())
     print(binaryT.hasilGenap())
+
+
+Buatlah sebuah method/fungsi yang dapat digunakan untuk menjumlahkan semua data ganjil yang ada dalam struktur binary tree yang dibuat. Gunakan file main.py lalu tambahkan source code buatan kalian sesuai dengan keinginan masing-masing, yang penting dapat menghitung data ganjil dan genap yang ada dalam struktur binary tree. Boleh pakai source code tree yang dijelaskan dimodul. Harus menerapkan algoritma traversal yang sudah diajarkan untuk mencari data-data tersebut
+
+misal ada sebuah tree yang jika diprint semua node nya menghasilkan: 20 2 10 2 5. Maka, tree tersebut jika dimasukkan ke hasilGanjil akan me-return 5; jika dimasukkan ke hasilGenap akan menghasilkan 34.
+
+## Test Case
+
+if __name__ == '__main__':
+
+    binaryT = BinaryTree()
+    binaryT.add(5)
+    binaryT.add(4)
+    binaryT.add(3)
+    binaryT.add(9)
+    binaryT.add(8)
+    binaryT.add(6)
+    binaryT.add(7)
+    binaryT.add(11)
+    binaryT.add(10)
+    print()
+    print(binaryT.hasilGanjil())
+    print(binaryT.hasilGenap())
+
+## Output
+
+    Jumlah data ganjil: 35
+    Jumlah data genap: 28
+
